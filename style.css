@@ -1,0 +1,23 @@
+* { box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-brown);
+}
+
+header {width: 100vw;
+  height: 100vh;
+  color: var(--color-brown);
+  text-align: center;
+}
+:root {
+  --color-brown:#926239 ;   ;
+}
+.firstsectionwrapper{margin-top: 50vh;
+  padding: 0;}
