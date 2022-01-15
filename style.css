@@ -55,5 +55,12 @@ header {
   background-color: var(--color-brown);
   color: var(--color-white);
 }
+
+.thirdsectionwrapper {
+  text-align: center;
+  background-color: #f4f4f4 ;
+  color: var(--color-brown);
+}
+
 .textp {  padding: 20px;
 }
