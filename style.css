@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 a {
@@ -21,3 +22,11 @@ header {width: 100vw;
 }
 .firstsectionwrapper{margin-top: 50vh;
   padding: 0;}
+  
+  .background {
+    background-color: wheat;
+    background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg) ;
+    position: fixed;
+background-position: center;
+background-size: cover;
+  }
