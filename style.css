@@ -64,3 +64,21 @@ header {
 
 .textp {  padding: 20px;
 }
+
+.fourthsectionwrapper {
+  text-align: center;
+}
+
+.fourthsectionp {
+  display: inline-block;
+  width: 631.5px;
+}
+section .fourthsectionp:nth-child(odd) {
+  background-color: var(--color-brown);
+  color:var(--color-white)
+  
+}
+section .fourthsectionp:nth-child(2) {
+color:var(--color-brown)
+
+}
