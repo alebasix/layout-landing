@@ -18,7 +18,6 @@ p {
 body {
   margin: 0;
   padding: 0;
-  height: 150em;
 }
 
 a {
@@ -32,7 +31,7 @@ a {
 }
 
 header {
-  width: 99vw;
+  width: 99.2vw;
   height: 100vh;
   color: var(--color-brown);
   text-align: center;
@@ -71,8 +70,9 @@ header {
 
 .fourthsectionp {
   display: inline-block;
-  width: 631.5px;
+  width: 32.89vw;
 }
+
 section .fourthsectionp:nth-child(odd) {
   background-color: var(--color-brown);
   color:var(--color-white)
