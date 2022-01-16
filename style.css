@@ -66,11 +66,27 @@ header {
 
 .fourthsectionwrapper {
   text-align: center;
+  position: relative;
 }
 
-.fourthsectionp {
-  display: inline-block;
+.fourthsectionp:nth-child(2) {
+  display: block;
   width: 32.89vw;
+  position: absolute;
+  right: 32.89vw;
+}
+
+.fourthsectionp:nth-child(1) {
+  display: block;
+  width: 32.89vw;
+  position: absolute;
+}
+
+.fourthsectionp:nth-child(3){
+  display: block;
+  width: 32.89vw;
+  position: absolute;
+  left: 66.2vw;
 }
 
 section .fourthsectionp:nth-child(odd) {
